@@ -8,8 +8,8 @@ const RepoListContainer = styled.ul`
 `;
 
 const RepoItem = styled.li`
-  background: #fff;
-  border: 1px solid #ddd;
+  background: ${({ theme }) => theme.cardBackground};
+  border: 1px solid ${({ theme }) => theme.cardBorder};
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 10px;

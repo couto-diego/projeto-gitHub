@@ -4,14 +4,20 @@ export const lightTheme = {
   body: '#f4f4f4',
   text: '#333',
   background: '#fff',
-  border: '#ddd',
+  cardBackground: '#fff',
+  cardBorder: '#ddd',
+  buttonBackground: '#24292e',
+  buttonText: '#fff',
 };
 
 export const darkTheme = {
   body: '#1a1a1a',
   text: '#f4f4f4',
   background: '#24292e',
-  border: '#444',
+  cardBackground: '#333',
+  cardBorder: '#444',
+  buttonBackground: '#444',
+  buttonText: '#fff',
 };
 
 export const GlobalStyle = createGlobalStyle`
@@ -26,12 +32,21 @@ export const GlobalStyle = createGlobalStyle`
 
   a {
     text-decoration: none;
-    color: #333;
-    text-shadow: 2px 2px 5px rgba(32, 32, 32, 0.5);
-    
+    color: inherit;
   }
 
   button {
     cursor: pointer;
+    background-color: ${({ theme }) => theme.buttonBackground};
+    color: ${({ theme }) => theme.buttonText};
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: ${({ theme }) => theme.buttonBackground === '#24292e' ? '#1c1f23' : '#555'};
+    }
   }
 `;

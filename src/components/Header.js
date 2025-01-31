@@ -25,6 +25,11 @@ const ThemeButton = styled.button`
   color: ${({ theme }) => theme.text};
   font-size: 1.5rem;
   cursor: pointer;
+  transition: color 0.3s;
+
+  &:hover {
+    color: ${({ theme }) => theme.buttonBackground === '#24292e' ? '#0366d6' : '#fff'};
+  }
 `;
 
 const Header = () => {

@@ -8,7 +8,7 @@ const FooterContainer = styled.footer`
   padding: 20px;
   text-align: center;
   margin-top: auto;
-  border-top: 1px solid ${({ theme }) => theme.border};
+  border-top: 1px solid ${({ theme }) => theme.cardBorder};
 `;
 
 const SocialLinks = styled.div`
