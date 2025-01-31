@@ -20,6 +20,8 @@ const Avatar = styled.img`
 const Name = styled.h2`
   font-size: 1.5rem;
   margin-bottom: 10px;
+  color: #333;
+  text-shadow: 2px 2px 5px rgba(32, 32, 32, 0.5);
 `;
 
 const Bio = styled.p`

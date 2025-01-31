@@ -26,7 +26,9 @@ export const GlobalStyle = createGlobalStyle`
 
   a {
     text-decoration: none;
-    color: inherit;
+    color: #333;
+    text-shadow: 2px 2px 5px rgba(32, 32, 32, 0.5);
+    
   }
 
   button {
