@@ -54,3 +54,14 @@ Este projeto foi desenvolvido para demonstrar:
 4. Acesse a aplicação no navegador:
 
 http://localhost:3000
+
+## Link do Projeto
+
+A aplicação está disponível online no seguinte link:
+
+- **Projeto GitHub**: [https://projeto-github-three.vercel.app](https://projeto-github-three.vercel.app)
+
+## Contato
+
+- **LinkedIn**: [https://www.linkedin.com/in/diegocouto87/](https://www.linkedin.com/in/diegocouto87/)
+- **Portfólio**: [https://couto-diego.github.io/portfolio-diego-couto/](https://couto-diego.github.io/portfolio-diego-couto/)
